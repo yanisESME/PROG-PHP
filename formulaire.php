@@ -9,7 +9,7 @@
 			echo "Nom conforme" . "<br>";
 		}
 	}
-
+// test modification
 	if (!empty($_POST['fname'])) { //Champ du Prénom
 		if(!ctype_alpha($_POST['fname'])){
 			echo "Erreur de Prénom" . "<br>";
